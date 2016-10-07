@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		849984741DA7C2F80038FCEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849984731DA7C2F80038FCEB /* AppDelegate.swift */; };
+		849984761DA7C2F80038FCEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849984751DA7C2F80038FCEB /* ViewController.swift */; };
+		849984791DA7C2F80038FCEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849984771DA7C2F80038FCEB /* Main.storyboard */; };
+		8499847B1DA7C2F80038FCEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8499847A1DA7C2F80038FCEB /* Assets.xcassets */; };
+		8499847E1DA7C2F80038FCEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8499847C1DA7C2F80038FCEB /* LaunchScreen.storyboard */; };
+		849984891DA7C2F80038FCEB /* calcapp2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849984881DA7C2F80038FCEB /* calcapp2Tests.swift */; };
+		849984941DA7C2F80038FCEB /* calcapp2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849984931DA7C2F80038FCEB /* calcapp2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		849984851DA7C2F80038FCEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849984681DA7C2F80038FCEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8499846F1DA7C2F80038FCEB;
+			remoteInfo = calcapp2;
+		};
+		849984901DA7C2F80038FCEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849984681DA7C2F80038FCEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8499846F1DA7C2F80038FCEB;
+			remoteInfo = calcapp2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		849984701DA7C2F80038FCEB /* calcapp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calcapp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		849984731DA7C2F80038FCEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		849984751DA7C2F80038FCEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		849984781DA7C2F80038FCEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8499847A1DA7C2F80038FCEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8499847D1DA7C2F80038FCEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8499847F1DA7C2F80038FCEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849984841DA7C2F80038FCEB /* calcapp2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calcapp2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		849984881DA7C2F80038FCEB /* calcapp2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calcapp2Tests.swift; sourceTree = "<group>"; };
+		8499848A1DA7C2F80038FCEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8499848F1DA7C2F80038FCEB /* calcapp2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calcapp2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		849984931DA7C2F80038FCEB /* calcapp2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calcapp2UITests.swift; sourceTree = "<group>"; };
+		849984951DA7C2F80038FCEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8499846D1DA7C2F80038FCEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849984811DA7C2F80038FCEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8499848C1DA7C2F80038FCEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		849984671DA7C2F80038FCEB = {
+			isa = PBXGroup;
+			children = (
+				849984721DA7C2F80038FCEB /* calcapp2 */,
+				849984871DA7C2F80038FCEB /* calcapp2Tests */,
+				849984921DA7C2F80038FCEB /* calcapp2UITests */,
+				849984711DA7C2F80038FCEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		849984711DA7C2F80038FCEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				849984701DA7C2F80038FCEB /* calcapp2.app */,
+				849984841DA7C2F80038FCEB /* calcapp2Tests.xctest */,
+				8499848F1DA7C2F80038FCEB /* calcapp2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		849984721DA7C2F80038FCEB /* calcapp2 */ = {
+			isa = PBXGroup;
+			children = (
+				849984731DA7C2F80038FCEB /* AppDelegate.swift */,
+				849984751DA7C2F80038FCEB /* ViewController.swift */,
+				849984771DA7C2F80038FCEB /* Main.storyboard */,
+				8499847A1DA7C2F80038FCEB /* Assets.xcassets */,
+				8499847C1DA7C2F80038FCEB /* LaunchScreen.storyboard */,
+				8499847F1DA7C2F80038FCEB /* Info.plist */,
+			);
+			path = calcapp2;
+			sourceTree = "<group>";
+		};
+		849984871DA7C2F80038FCEB /* calcapp2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				849984881DA7C2F80038FCEB /* calcapp2Tests.swift */,
+				8499848A1DA7C2F80038FCEB /* Info.plist */,
+			);
+			path = calcapp2Tests;
+			sourceTree = "<group>";
+		};
+		849984921DA7C2F80038FCEB /* calcapp2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				849984931DA7C2F80038FCEB /* calcapp2UITests.swift */,
+				849984951DA7C2F80038FCEB /* Info.plist */,
+			);
+			path = calcapp2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8499846F1DA7C2F80038FCEB /* calcapp2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849984981DA7C2F80038FCEB /* Build configuration list for PBXNativeTarget "calcapp2" */;
+			buildPhases = (
+				8499846C1DA7C2F80038FCEB /* Sources */,
+				8499846D1DA7C2F80038FCEB /* Frameworks */,
+				8499846E1DA7C2F80038FCEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = calcapp2;
+			productName = calcapp2;
+			productReference = 849984701DA7C2F80038FCEB /* calcapp2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		849984831DA7C2F80038FCEB /* calcapp2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8499849B1DA7C2F80038FCEB /* Build configuration list for PBXNativeTarget "calcapp2Tests" */;
+			buildPhases = (
+				849984801DA7C2F80038FCEB /* Sources */,
+				849984811DA7C2F80038FCEB /* Frameworks */,
+				849984821DA7C2F80038FCEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				849984861DA7C2F80038FCEB /* PBXTargetDependency */,
+			);
+			name = calcapp2Tests;
+			productName = calcapp2Tests;
+			productReference = 849984841DA7C2F80038FCEB /* calcapp2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8499848E1DA7C2F80038FCEB /* calcapp2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8499849E1DA7C2F80038FCEB /* Build configuration list for PBXNativeTarget "calcapp2UITests" */;
+			buildPhases = (
+				8499848B1DA7C2F80038FCEB /* Sources */,
+				8499848C1DA7C2F80038FCEB /* Frameworks */,
+				8499848D1DA7C2F80038FCEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				849984911DA7C2F80038FCEB /* PBXTargetDependency */,
+			);
+			name = calcapp2UITests;
+			productName = calcapp2UITests;
+			productReference = 8499848F1DA7C2F80038FCEB /* calcapp2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		849984681DA7C2F80038FCEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					8499846F1DA7C2F80038FCEB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					849984831DA7C2F80038FCEB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8499846F1DA7C2F80038FCEB;
+					};
+					8499848E1DA7C2F80038FCEB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8499846F1DA7C2F80038FCEB;
+					};
+				};
+			};
+			buildConfigurationList = 8499846B1DA7C2F80038FCEB /* Build configuration list for PBXProject "calcapp2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 849984671DA7C2F80038FCEB;
+			productRefGroup = 849984711DA7C2F80038FCEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8499846F1DA7C2F80038FCEB /* calcapp2 */,
+				849984831DA7C2F80038FCEB /* calcapp2Tests */,
+				8499848E1DA7C2F80038FCEB /* calcapp2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8499846E1DA7C2F80038FCEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8499847E1DA7C2F80038FCEB /* LaunchScreen.storyboard in Resources */,
+				8499847B1DA7C2F80038FCEB /* Assets.xcassets in Resources */,
+				849984791DA7C2F80038FCEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849984821DA7C2F80038FCEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8499848D1DA7C2F80038FCEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8499846C1DA7C2F80038FCEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849984761DA7C2F80038FCEB /* ViewController.swift in Sources */,
+				849984741DA7C2F80038FCEB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849984801DA7C2F80038FCEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849984891DA7C2F80038FCEB /* calcapp2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8499848B1DA7C2F80038FCEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849984941DA7C2F80038FCEB /* calcapp2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		849984861DA7C2F80038FCEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8499846F1DA7C2F80038FCEB /* calcapp2 */;
+			targetProxy = 849984851DA7C2F80038FCEB /* PBXContainerItemProxy */;
+		};
+		849984911DA7C2F80038FCEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8499846F1DA7C2F80038FCEB /* calcapp2 */;
+			targetProxy = 849984901DA7C2F80038FCEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		849984771DA7C2F80038FCEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849984781DA7C2F80038FCEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8499847C1DA7C2F80038FCEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8499847D1DA7C2F80038FCEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		849984961DA7C2F80038FCEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		849984971DA7C2F80038FCEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		849984991DA7C2F80038FCEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = calcapp2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hertfordshire.calcapp2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8499849A1DA7C2F80038FCEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = calcapp2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hertfordshire.calcapp2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8499849C1DA7C2F80038FCEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = calcapp2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hertfordshire.calcapp2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/calcapp2.app/calcapp2";
+			};
+			name = Debug;
+		};
+		8499849D1DA7C2F80038FCEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = calcapp2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hertfordshire.calcapp2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/calcapp2.app/calcapp2";
+			};
+			name = Release;
+		};
+		8499849F1DA7C2F80038FCEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = calcapp2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hertfordshire.calcapp2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = calcapp2;
+			};
+			name = Debug;
+		};
+		849984A01DA7C2F80038FCEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = calcapp2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hertfordshire.calcapp2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = calcapp2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8499846B1DA7C2F80038FCEB /* Build configuration list for PBXProject "calcapp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849984961DA7C2F80038FCEB /* Debug */,
+				849984971DA7C2F80038FCEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849984981DA7C2F80038FCEB /* Build configuration list for PBXNativeTarget "calcapp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849984991DA7C2F80038FCEB /* Debug */,
+				8499849A1DA7C2F80038FCEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8499849B1DA7C2F80038FCEB /* Build configuration list for PBXNativeTarget "calcapp2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8499849C1DA7C2F80038FCEB /* Debug */,
+				8499849D1DA7C2F80038FCEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8499849E1DA7C2F80038FCEB /* Build configuration list for PBXNativeTarget "calcapp2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8499849F1DA7C2F80038FCEB /* Debug */,
+				849984A01DA7C2F80038FCEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 849984681DA7C2F80038FCEB /* Project object */;
+}
